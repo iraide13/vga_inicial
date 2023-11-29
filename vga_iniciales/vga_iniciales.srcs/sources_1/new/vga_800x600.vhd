@@ -37,15 +37,15 @@ end vga_800x600;
 
 architecture Behavioral of vga_800x600 is
 -- horizontal timig --
-constant hbp : std_logic_vector (9 downto 0) := "00011001000"; --hbp = sp+bp= 72+128=200
-constant hfp : std_logic_vector (9 downto 0) := "01111101000"; --hfp = hbp+hv = 200+800=1000 
-constant hpixels : std_logic_vector (9 downto 0) := "10000000000"; --toda la linea completa lleva 1024 pixeles
+constant hbp : std_logic_vector (9 downto 0) := "0011001000"; --hbp = sp+bp= 72+128=200
+constant hfp : std_logic_vector (9 downto 0) := "1111101000"; --hfp = hbp+hv = 200+800=1000 
+constant hpixels : std_logic_vector (9 downto 0) := "1111000100"; --toda la linea completa lleva 964 pixeles
 
 
 -- vertical timig --
-constant vbp : std_logic_vector (9 downto 0) := "00000011000"; --vbp= sp+bp= 22+2=24
-constant vfp : std_logic_vector (9 downto 0) := "01001110000"; --vfp= vbp+vv= 24+600=624
-constant vlines : std_logic_vector (9 downto 0) := "01010000001";--lineas verticales 641
+constant vbp : std_logic_vector (9 downto 0) := "0000011000"; --vbp= sp+bp= 22+2=24
+constant vfp : std_logic_vector (9 downto 0) := "1001110000"; --vfp= vbp+vv= 24+600=624
+constant vlines : std_logic_vector (9 downto 0) := "1010000001";--lineas verticales 641
 
  
 signal hcs, vcs : std_logic_vector (9 downto 0); -- horizontal & vertical counters

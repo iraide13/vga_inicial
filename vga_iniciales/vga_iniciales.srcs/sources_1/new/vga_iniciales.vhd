@@ -49,8 +49,8 @@ blue : out std_logic_vector (3 downto 0));
 end vga_iniciales;
 
 architecture Behavioral of vga_iniciales is
-constant hbp: std_logic_vector (9 downto 0) := "00011001000"; --hbp = sp+bp= 72+128=200
-constant vbp : std_logic_vector (9 downto 0):= "00000011000"; --vbp= sp+bp= 22+2=24
+constant hbp: std_logic_vector (9 downto 0) := "0011001000"; --hbp = sp+bp= 72+128=200
+constant vbp : std_logic_vector (9 downto 0):= "0000011000"; --vbp= sp+bp= 22+2=24
 
 -- iniciales**************************
 constant w : integer := 32; 

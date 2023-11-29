@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov 29 12:22:57 2023
+# Process ID: 15712
+# Current directory: E:/FESC/SISTEMAS DIGITALES/vga_iniciales
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19148 E:\FESC\SISTEMAS DIGITALES\vga_iniciales\vga_iniciales.xpr
+# Log file: E:/FESC/SISTEMAS DIGITALES/vga_iniciales/vivado.log
+# Journal file: E:/FESC/SISTEMAS DIGITALES/vga_iniciales\vivado.jou
+# Running On: Iraid, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 4, Host memory: 10647 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FESC/SISTEMAS DIGITALES/vga_iniciales/vga_iniciales.xpr}
+update_compile_order -fileset sources_1
